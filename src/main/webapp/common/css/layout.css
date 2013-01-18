@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 9pt;
+}
+
+h1, h2 {
+  margin: 20px 0 10px;
+}
+
+h1 {
+  font-size: 2.0em;
+}
+
+p {
+  margin: 10px 0;
+  padding: 0;
+}
+
+#header-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#header-container {
+  height: 120px;
+  background-color: white;
+  background-image: url("../images/wicket-bg.png");
+  background-repeat: repeat-x;
+}
+
+#header {
+  width: 940px;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+#header h1 {
+  text-align: right;
+  width: 290px;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+}
+
+#header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+
+#header ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+#header ul li a{
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+#header ul li a:hover {
+  color: #beffbf;
+}
+
+#container {
+  width: 940px;
+  margin: 0 auto;
+  font-size: 1.4em;
+  overflow: auto;
+  padding: 120px 0 30px;
+}
+
+#content {
+  float: left;
+  width: 625px;
+}
+
+#sidebar {
+  float: right;
+  width: 275px;
+  margin-top: 10px;
+}
+
+#footer-wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#footer-container {
+  height: 30px;
+  background-color: #000000;
+}
+
+#footer {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+  color:#FFF;
+}
